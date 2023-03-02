@@ -1,0 +1,79 @@
+body {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #88132F 0%, #101010 42.07%, #101010 100%);
+}
+
+.form-control::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #B0B0B0;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after {
+    color: #E8184A;
+}
+
+.card {
+    border-color: #E8184A;
+    border-width: 0px 0px 2px 0px;
+    background-color: initial;
+    margin: 0px;
+} 
+
+.m-xl-5 {
+    padding-left: 1000px;
+    margin-right: 160px;
+}
+
+.card-img-top {
+    position: absolute;
+}
+
+.card-text {
+    color: aliceblue;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 350px ;
+}
+
+.card:hover {
+    box-shadow: 0px 30px 35px -30px #c51037;
+    border-width: 0px 0px 1px 0px;
+}
+
+footer {
+    margin-top: 30vh;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pod {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.085em;
+    
+    color: #B0B0B0;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.085em;
+    
+    color: #B0B0B0;
+}

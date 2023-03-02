@@ -1,0 +1,28 @@
+header .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.085em;
+    
+    color: #B0B0B0;
+}
+
+.nav-link:hover {
+    color: #E8184A;
+    text-shadow: 0 0 10px #E8184A;
+}
+.nav-link.active {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.110em;
+}
+
+.dropdown-toggle::after {
+    color: #E8184A;
+}

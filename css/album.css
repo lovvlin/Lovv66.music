@@ -1,0 +1,48 @@
+body {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #88132F 0%, #101010 42.07%, #101010 100%);
+}
+
+.card {
+    background: url(/assets/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    padding: 20px;
+}
+
+.img-fluid {
+    margin: 10px;
+    border-radius: 10px;
+}  
+
+@media screen and (max-width: 768px) {
+    .card {
+        background: url(/assets/Rectangle1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: none;
+    }
+    .album {
+        padding: 60px;
+    }
+}
+
+.list-group-item {
+    transition: 0.5s;
+    border-radius: 0px;
+    border-width: 1px;
+    border-bottom-color: #1f0f0f;
+    color: aliceblue;
+}
+
+.list-group-item:hover {
+    outline: 4px solid #ad1539;
+    z-index: 1;
+}
+
+
+
