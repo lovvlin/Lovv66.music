@@ -14,8 +14,9 @@ body {
 }
 
 .img-fluid {
-    margin: 10px;
-    border-radius: 10px;
+    padding-bottom: 200;
+    padding-top: -200px;
+    max-width: 100%;
 }  
 
 @media screen and (max-width: 768px) {
@@ -42,6 +43,26 @@ body {
 .list-group-item:hover {
     outline: 4px solid #ad1539;
     z-index: 1;
+}
+
+.list-group-item-end {
+    border-bottom-color: aliceblue;
+}
+
+.play-active {
+    margin-left: 26px;
+    width: 1px;
+    height: 1px;
+    box-shadow: 0px 30px 45px 30px #c51037;
+    border-width: 0px 0px 1px 0px;
+}
+
+.progressTime {
+    width: 300px;
+}
+
+.progress-bar {
+    background-color: #c51037;
 }
 
 

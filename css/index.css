@@ -36,7 +36,7 @@ body {
     text-decoration-line: underline;
     text-align: center;
     font-size: 20px;
-    margin-top: 350px ;
+    margin-top: 280px ;
 }
 
 .card:hover {
@@ -44,36 +44,3 @@ body {
     border-width: 0px 0px 1px 0px;
 }
 
-footer {
-    margin-top: 30vh;
-    color: aliceblue;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.pod {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.085em;
-    
-    color: #B0B0B0;
-}
-
-footer img {
-    width: 100px;
-}
-
-footer .nav-link {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.085em;
-    
-    color: #B0B0B0;
-}
